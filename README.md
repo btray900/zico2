@@ -26,16 +26,17 @@ browsing the webste leads us to an LFI candidate
 
 ## lfi
 
-LFI was successful. SSH with cracked credentials from below was unsuccessful for me.
+LFI was successful. SSH with cracked credentials from below was unsuccessful for me
 
 ![Alt text](./burplfi.png?raw=true)
 
 
 # dirb
 
-dirb found the directory 'dbadmin' with phpLiteAdmin/1.9.3 web app. Default password works.
+dirb found the directory 'dbadmin' with phpLiteAdmin/1.9.3 web app. Default password works
 
 ![Alt text](./phplogin.png?raw=true)
+
 
 webapp users
 
@@ -48,9 +49,11 @@ Google for the web app gives us a PoC
 
 ![Alt text](./poc.png?raw=true)
 
+
 php is crafted for injection
 
 ![Alt text](./phpinject.png?raw=true)
+
 
 visit the db page, you should see a web log hit on your attacker
 
@@ -68,7 +71,8 @@ poc returns a low-level shell
 
 interpreters and compilers available
 
-![Alt text](./compilers.png?raw=true)
+![Alt text](./compiler.png?raw=true)
+
 
 os version
 
@@ -77,7 +81,7 @@ os version
 
 # kernel exploit
 
-Google sens us to a candidate. The targets are slightly different than our kernel but worht a shot
+Google sends us to a candidate. The targets are slightly different than our kernel but worth a shot for quick escalation
 
 ![Alt text](./kernel-exploit.png?raw=true)
 
@@ -130,11 +134,12 @@ compile a malicious binary
 \(*_*)
   ( (>
   /  \
-  </pre></html>
+</pre></html>
   
-  sudo tar ftw
   
-  ![Alt text](./tar-ftw.png?raw=true)
+sudo tar ftw
+  
+![Alt text](./tar-ftw.png?raw=true)
   
 
 # ctf
