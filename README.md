@@ -21,7 +21,7 @@ nmap shows what is available for tcp
 
 browsing the webste leads us to an LFI candidate
 
-![Alt text](./lficheck.png?raw=true)
+![Alt text](./lfi-check.png?raw=true)
 
 
 ## lfi
