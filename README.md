@@ -93,7 +93,7 @@ Upgrading the shell to tty allows successful exploitation. But this is not in th
 ![Alt text](./kernel-root.png?raw=true)
 
 
-## enumeratino - method 2
+## enumeration - method 2
 
 Compromise a password in wordpress config
 
@@ -121,7 +121,7 @@ Searching the web describes how to run arbitrary code with tar
 ![Alt text](./google-tar.png?raw=true)
 
 
-# maliscious command
+# malicious binary
 
 compile a malicious binary
 
